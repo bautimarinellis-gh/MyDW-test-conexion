@@ -1,7 +1,7 @@
-import { createUser, deleteUser, getUser, getUserByEmail, getUsers, updateUser } from '../controllers/userController.js';
-import express from 'express';
+import { Router } from 'express';
+import { createUser, deleteUser, getUser, getUserByEmail, getUsers, updateUser } from '../controllers/userController';
 
-const router = express.Router();
+const router: Router = Router();
 
 // POST /users - Crear un nuevo usuario
 // Body: { name, lastName, email, age }

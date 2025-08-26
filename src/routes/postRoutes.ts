@@ -1,7 +1,7 @@
-import { createPost, deletePost, getPost, getPosts, getPostsByAuthor, updatePost } from '../controllers/postController.js';
-import express from 'express';
+import { Router } from 'express';
+import { createPost, deletePost, getPost, getPosts, getPostsByAuthor, updatePost } from '../controllers/postController';
 
-const router = express.Router();
+const router: Router = Router();
 
 // POST /posts - Crear un nuevo post
 // Body: { title, content, author }

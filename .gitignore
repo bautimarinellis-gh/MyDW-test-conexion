@@ -1,4 +1,4 @@
-# Dependencias
+i# Dependencias
 node_modules/
 
 # Archivos de entorno (NUNCA subir!)
@@ -7,8 +7,6 @@ node_modules/
 .env.production
 .env.staging
 
-# Carpeta de compilación TypeScript
-dist/
 
 # Logs
 *.log
